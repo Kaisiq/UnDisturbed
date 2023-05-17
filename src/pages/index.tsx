@@ -13,8 +13,21 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556884557249419" crossOrigin="anonymous"></script>
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
-        <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
+      <main className="flex min-h-screen flex-row items-stretch justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
+        <div className="w-1/5 h-screen">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556884557249419"
+              crossOrigin="anonymous"></script>
+          <ins
+              className="adsbygoogle block"
+              data-ad-client="ca-pub-4556884557249419"
+              data-ad-slot="3752798088"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+        <div className="w-3/5 container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             <span className="text-[hsl(280,100%,70%)]">Un</span>Disturbed <br/>
           </h1>
@@ -47,6 +60,20 @@ const Home: NextPage = () => {
               </div>
             </Link>
           </div>
+        </div>
+
+        <div className="w-1/5">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556884557249419"
+              crossOrigin="anonymous"></script>
+          <ins
+              className="adsbygoogle block"
+              data-ad-client="ca-pub-4556884557249419"
+              data-ad-slot="3752798088"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
       </main>
     </>
