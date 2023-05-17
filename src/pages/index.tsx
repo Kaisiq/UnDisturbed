@@ -1,19 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import Script from 'next/script';
-
-
-
-function Scripts() {
-  return (
-    <>
-        <Script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js" async/>
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556884557249419"
-           crossOrigin="anonymous"/>
-    </>
-  )
-}
 
 
 
@@ -21,7 +8,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <Scripts/>
+        <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js" async/>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4556884557249419"
+           crossOrigin="anonymous"/>
         <title>UnDisturbed</title>
         <meta name="description" content="UnDisturbed Minecraft server" />
         <link rel="icon" href="/favicon.ico" />
